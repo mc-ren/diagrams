@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-23T17:10:02.927Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="RxMgWJbVhfzbYmUn7NnX" version="20.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-23T17:12:53.470Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="FI3ugH6HnLh8h5CKZuMD" version="20.2.0" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="High Throughput ">
     <mxGraphModel dx="1234" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="0YEOm75y2tqJxf8zHXZC-2094" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="0YEOm75y2tqJxf8zHXZC-2085" target="0YEOm75y2tqJxf8zHXZC-2092" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0YEOm75y2tqJxf8zHXZC-2101" value="1. Submit &lt;br&gt;Job to PENDING &lt;br&gt;request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" parent="0YEOm75y2tqJxf8zHXZC-2094" vertex="1" connectable="0">
+        <mxCell id="0YEOm75y2tqJxf8zHXZC-2101" value="1. Submit&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" parent="0YEOm75y2tqJxf8zHXZC-2094" vertex="1" connectable="0">
           <mxGeometry x="-0.1597" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -29,7 +29,7 @@
         <mxCell id="0YEOm75y2tqJxf8zHXZC-2108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" parent="1" source="0YEOm75y2tqJxf8zHXZC-2089" target="0YEOm75y2tqJxf8zHXZC-2103" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0YEOm75y2tqJxf8zHXZC-2109" value="2. B) Interval check for &lt;br&gt;menus ready" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" parent="0YEOm75y2tqJxf8zHXZC-2108" vertex="1" connectable="0">
+        <mxCell id="0YEOm75y2tqJxf8zHXZC-2109" value="2. B) Interval check &lt;br&gt;for new dir/ready" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" parent="0YEOm75y2tqJxf8zHXZC-2108" vertex="1" connectable="0">
           <mxGeometry x="-0.1221" relative="1" as="geometry">
             <mxPoint x="-8" as="offset" />
           </mxGeometry>
@@ -59,7 +59,7 @@
           <mxGeometry x="450" y="162.17" width="20" height="17.83" as="geometry" />
         </mxCell>
         <mxCell id="0YEOm75y2tqJxf8zHXZC-2107" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=2;shape=mxgraph.lean_mapping.physical_pull;pointerEvents=1;" parent="1" vertex="1">
-          <mxGeometry x="640" y="172.26999999999998" width="20" height="17.83" as="geometry" />
+          <mxGeometry x="700" y="202.17" width="20" height="17.83" as="geometry" />
         </mxCell>
         <mxCell id="0YEOm75y2tqJxf8zHXZC-2113" value="2. C/E) Update to Job to PROCESSING,&lt;br&gt;Create menu records as READY" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" parent="1" source="0YEOm75y2tqJxf8zHXZC-2110" target="0YEOm75y2tqJxf8zHXZC-2112" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -165,7 +165,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0YEOm75y2tqJxf8zHXZC-2149" value="&lt;b&gt;3. &lt;/b&gt;A) Workers pull down the menus messages to create. B) Then call the AEM api to retrieve the image, create a copy (or rename, to match naming taxonomy. C) Then post the menu images to Azure Blob location. D) Capture menu information in DB, Job - REVIEW and menu to PENDAPPROVE/FAIL" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=10;align=left;verticalAlign=bottom;" parent="1" vertex="1">
+        <mxCell id="0YEOm75y2tqJxf8zHXZC-2149" value="&lt;b&gt;3. &lt;/b&gt;A) Workers pull down the menu messages to create. B) Then call the AEM api to retrieve the image, create a copy (or rename, to match naming taxonomy. C) Then post the menu images to Azure Blob location. D) Capture menu information in DB, Job - REVIEW and menu to PENDAPPROVE/FAIL" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=10;align=left;verticalAlign=bottom;" parent="1" vertex="1">
           <mxGeometry x="309.12" y="740" width="235.88" height="102.17" as="geometry" />
         </mxCell>
         <mxCell id="0YEOm75y2tqJxf8zHXZC-2150" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#2E27AD;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_postgresql_instance;" parent="1" vertex="1">
@@ -275,8 +275,8 @@
         <mxCell id="RroUtPbVqkHAgqEgLFY--9" value="&lt;b&gt;5&lt;/b&gt;. A) Pick up the request to move images and move them to the Read location.B) If &#39;Create web package&#39; is selected create package and ship to magic info. C) Close out images to COMPLETE, and Job to APPROVED." style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=10;align=left;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="492.05" y="909.39" width="117.95" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="RroUtPbVqkHAgqEgLFY--32" value="1. In MCB UI we create the menu job. Set the properties to kick off a new job request." style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=10;align=left;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="30" y="210" width="145" height="60" as="geometry" />
+        <mxCell id="RroUtPbVqkHAgqEgLFY--32" value="1. In MCB UI we create the menu job. Set the properties to kick off a new job request.Job PENDING" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=10;align=left;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="30" y="210" width="145" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
