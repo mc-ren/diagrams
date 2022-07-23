@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-23T16:51:15.225Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="VTXqctI_5I8U9KOczNoX" version="20.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-23T16:51:45.664Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="u-XRX2gCld618p9MAYZJ" version="20.2.0" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="High Throughput ">
     <mxGraphModel dx="1234" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -66,6 +66,11 @@
         </mxCell>
         <mxCell id="0YEOm75y2tqJxf8zHXZC-2115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" parent="1" source="0YEOm75y2tqJxf8zHXZC-2110" target="0YEOm75y2tqJxf8zHXZC-2098" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RroUtPbVqkHAgqEgLFY--30" value="6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="0YEOm75y2tqJxf8zHXZC-2115">
+          <mxGeometry x="0.1215" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="0YEOm75y2tqJxf8zHXZC-2110" value="&lt;b&gt;6&lt;/b&gt;. We check for the existence of the finished directory in AEM. When it is found we need to A) update the status to of the job to PROCESSING. B) Create a message for each menu to be created and publish those to the MenusToCreateTopic. C) Add the menus to a db as READY." style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=10;align=left;verticalAlign=bottom;" parent="1" vertex="1">
           <mxGeometry x="481.88" y="220" width="128.75" height="170" as="geometry" />
