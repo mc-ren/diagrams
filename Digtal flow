@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-24T00:32:50.687Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="ZRNofuSsGrHrbZ80KFWT" version="20.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-24T00:35:55.534Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="z1Db4g0_N6SWbIVRdR3d" version="20.2.0" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="High Throughput ">
     <mxGraphModel dx="1234" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -110,7 +110,7 @@
             <mxPoint x="710" y="361" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0YEOm75y2tqJxf8zHXZC-2146" value="3. Pull menu per message to process (B)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" parent="0YEOm75y2tqJxf8zHXZC-2140" vertex="1" connectable="0">
+        <mxCell id="0YEOm75y2tqJxf8zHXZC-2146" value="3. B" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" parent="0YEOm75y2tqJxf8zHXZC-2140" vertex="1" connectable="0">
           <mxGeometry x="-0.3538" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -126,7 +126,7 @@
             <mxPoint x="720" y="361" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0YEOm75y2tqJxf8zHXZC-2145" value="3. Pull menu per message to process (B)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" parent="0YEOm75y2tqJxf8zHXZC-2138" vertex="1" connectable="0">
+        <mxCell id="0YEOm75y2tqJxf8zHXZC-2145" value="3. B" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" parent="0YEOm75y2tqJxf8zHXZC-2138" vertex="1" connectable="0">
           <mxGeometry x="-0.4464" y="2" relative="1" as="geometry">
             <mxPoint x="23" y="5" as="offset" />
           </mxGeometry>
@@ -147,7 +147,7 @@
             <mxPoint x="740" y="361" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0YEOm75y2tqJxf8zHXZC-2144" value="3. Pull menu per message to process (B)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" parent="0YEOm75y2tqJxf8zHXZC-2137" vertex="1" connectable="0">
+        <mxCell id="0YEOm75y2tqJxf8zHXZC-2144" value="3. B" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" parent="0YEOm75y2tqJxf8zHXZC-2137" vertex="1" connectable="0">
           <mxGeometry x="-0.4039" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -164,7 +164,7 @@
         <mxCell id="0YEOm75y2tqJxf8zHXZC-2143" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=2;shape=mxgraph.lean_mapping.physical_pull;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="467.05" y="498.83000000000004" width="20" height="17.83" as="geometry" />
         </mxCell>
-        <mxCell id="0YEOm75y2tqJxf8zHXZC-2148" value="Workers can scale to pull messages and work them in parallel." style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;dashed=1;" parent="1" vertex="1">
+        <mxCell id="0YEOm75y2tqJxf8zHXZC-2148" value="Workers can scale to pull messages and work them in parallel." style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;dashed=1;opacity=90;strokeColor=#CCCCCC;" parent="1" vertex="1">
           <mxGeometry x="656.42" y="421" width="120" height="49" as="geometry" />
         </mxCell>
         <mxCell id="0YEOm75y2tqJxf8zHXZC-2151" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=1;" parent="1" source="0YEOm75y2tqJxf8zHXZC-2119" target="0YEOm75y2tqJxf8zHXZC-2150" edge="1">
