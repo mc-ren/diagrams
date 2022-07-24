@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-24T00:41:22.009Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="1zOVbIhac10DBxrEWDXW" version="20.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-24T00:41:48.366Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="zxHkZHGEZDmOR2xCt70w" version="20.2.0" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="High Throughput ">
     <mxGraphModel dx="1234" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -182,7 +182,7 @@
         </mxCell>
         <mxCell id="0YEOm75y2tqJxf8zHXZC-2158" value="3. C" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" parent="0YEOm75y2tqJxf8zHXZC-2157" vertex="1" connectable="0">
           <mxGeometry x="0.1295" y="1" relative="1" as="geometry">
-            <mxPoint x="-3" y="13" as="offset" />
+            <mxPoint x="-2" y="16" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0YEOm75y2tqJxf8zHXZC-2149" value="&lt;b&gt;3. &lt;/b&gt;A) Workers pull down the menu messages to create. B) Then call the AEM api to retrieve the image, create a copy (or rename, to match naming taxonomy. C) Then post the menu images to Azure Blob location. D) Capture menu information in DB, Job - REVIEW and menu to PENDAPPROVE/FAIL" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=10;align=left;verticalAlign=bottom;dashed=1;strokeColor=#999999;fillColor=#FFF4C3;opacity=70;" parent="1" vertex="1">
