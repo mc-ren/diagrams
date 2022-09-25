@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-25T16:00:41.879Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="acRbDjC4lfX53dDp9VhF" version="20.3.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-25T16:15:52.523Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="54lu0RrSPcrPisuOUcEA" version="20.3.1" type="github" pages="2">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="High Throughput ">
     <mxGraphModel dx="1234" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -340,34 +340,58 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IULEaSI2xGtG32kb0lOU-9" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;&lt;b&gt;MenuStatusClaimTicket&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;MenuStatusId&lt;br&gt;MenuStatusStorePayload&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=none;fillColor=none;overflow=fill;align=left;" vertex="1" parent="1">
-          <mxGeometry x="80" y="350" width="170" height="120" as="geometry" />
+          <mxGeometry x="80" y="450" width="170" height="120" as="geometry" />
         </mxCell>
         <mxCell id="IULEaSI2xGtG32kb0lOU-10" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;&lt;b&gt;StoreDigitalDisplay&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;StoreId&lt;br&gt;DigitalDisplayNumber&lt;br&gt;MenuStatusByStoreId&lt;br&gt;CustomerJourney&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=none;fillColor=none;overflow=fill;" vertex="1" parent="1">
-          <mxGeometry x="330" y="516" width="160" height="134" as="geometry" />
+          <mxGeometry x="103" y="690" width="160" height="134" as="geometry" />
         </mxCell>
         <mxCell id="IULEaSI2xGtG32kb0lOU-11" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;&lt;b&gt;StoreDigitalDisplayMenu&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;StoreDigitalDisplayId&lt;br&gt;Image&lt;br&gt;AemImage&lt;br&gt;Order&lt;br&gt;TransitionOrder&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=none;fillColor=none;overflow=fill;" vertex="1" parent="1">
-          <mxGeometry x="597" y="520" width="160" height="160" as="geometry" />
+          <mxGeometry x="370" y="694" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="IULEaSI2xGtG32kb0lOU-15" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0.991;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.003;entryY=0.525;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IULEaSI2xGtG32kb0lOU-10" target="IULEaSI2xGtG32kb0lOU-11">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="480" y="760" as="sourcePoint" />
-            <mxPoint x="580" y="660" as="targetPoint" />
+            <mxPoint x="253" y="934" as="sourcePoint" />
+            <mxPoint x="353" y="834" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IULEaSI2xGtG32kb0lOU-16" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;&lt;b&gt;StoreDigitalDisplayHist&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;StoreId&lt;br&gt;DigitalDisplayNumber&lt;br&gt;MenuStatusByStoreId&lt;br&gt;CustomerJourney&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=none;fillColor=none;overflow=fill;" vertex="1" parent="1">
-          <mxGeometry x="240" y="710" width="160" height="134" as="geometry" />
+          <mxGeometry x="90" y="920" width="160" height="134" as="geometry" />
         </mxCell>
         <mxCell id="IULEaSI2xGtG32kb0lOU-17" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;&lt;b&gt;StoreDigitalDisplayMenuHist&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;StoreDigitalDisplayId&lt;br&gt;Image&lt;br&gt;AemImage&lt;br&gt;Order&lt;br&gt;TransitionOrder&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=none;fillColor=none;overflow=fill;" vertex="1" parent="1">
-          <mxGeometry x="507" y="714" width="183" height="160" as="geometry" />
+          <mxGeometry x="357" y="924" width="183" height="160" as="geometry" />
         </mxCell>
         <mxCell id="IULEaSI2xGtG32kb0lOU-18" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0.991;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.003;entryY=0.525;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IULEaSI2xGtG32kb0lOU-16" target="IULEaSI2xGtG32kb0lOU-17">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="390" y="954" as="sourcePoint" />
-            <mxPoint x="490" y="854" as="targetPoint" />
+            <mxPoint x="240" y="1164" as="sourcePoint" />
+            <mxPoint x="340" y="1064" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IULEaSI2xGtG32kb0lOU-19" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;&lt;b&gt;MenuStorageServiceSettings&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Enabled&lt;br&gt;LastUpdateDate&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=none;fillColor=none;overflow=fill;align=left;" vertex="1" parent="1">
-          <mxGeometry x="310" y="350" width="200" height="120" as="geometry" />
+          <mxGeometry x="340" y="440" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EdanigDi2jS_X7MAvZ4F-2" value="1 to 1 with menu versions, store relevant info about menu creation, order and. transition order" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="115" y="30" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EdanigDi2jS_X7MAvZ4F-3" value="each menu version is associated with a store, this captures the aem menu location, blob location and customer journey" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="360" y="30" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EdanigDi2jS_X7MAvZ4F-4" value="History of changes stored here to primarily see when changes happened and the aem image at that time" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="627" y="30" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EdanigDi2jS_X7MAvZ4F-6" value="Used for large messages produced to queues. This allows messages to stay small" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="100" y="350" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EdanigDi2jS_X7MAvZ4F-7" value="Table that is watched by the menu storage service for allowing for starting and stopping consumption from a queue. Allows for real time adjustments." style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="360" y="340" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EdanigDi2jS_X7MAvZ4F-8" value="Capture Store/Digital display information. Says what is showing on a display for a store" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="140" y="590" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EdanigDi2jS_X7MAvZ4F-9" value="Stores the actual menus showing on a digital display for a store" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="400" y="610" width="100" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="EdanigDi2jS_X7MAvZ4F-10" value="History of the display information of stores." style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="163" y="860" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
