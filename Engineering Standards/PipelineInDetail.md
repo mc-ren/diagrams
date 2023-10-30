@@ -53,8 +53,9 @@ Each deployment for environments is done with commits on main and builds from fe
 
  ### 2.2 Pipeline Descriptions
 
-| Build and test stage is the first stage that will run (this includes the Unit Tests, Component Tests, Integration, functional, and Acceptance Tests). The tests may be controlled by parameters to enable/disable long running tests (e.g., tests that interact with containerized databases, environment databases, other resources) – <i>future updates can be done to make this more conditional moving forward based on triggering, branch names, etc.. </i>    |   <img src="images/s1.png" width="900">         |
+|          |         |
 | -------- | ---------|
+| Build and test stage is the first stage that will run (this includes the Unit Tests, Component Tests, Integration, functional, and Acceptance Tests). The tests may be controlled by parameters to enable/disable long running tests (e.g., tests that interact with containerized databases, environment databases, other resources) – <i>future updates can be done to make this more conditional moving forward based on triggering, branch names, etc.</i>|<img src="images/s1.png" width="900">         |
 | Create container - this stage creates the container image. For pipelines that create an image, this is the stage that encapsulates the creation of an image that is pushed to the image registry.  <i>Note: This stage may not be needed or exist for apps that are not containerized (static web app for example).</i>   |  <img src="images/s2.png" width="600"> |
 | All builds from the main branch are deployed to the dev environment. Optionally, a feature branch build may be deployed to dev environment as well.    |  <img src="images/s3.png" width="600"> |
 | Deploy to nonprod stage is the deployment stage for nonprod that automatically happens when a commit to main happens.     |  <img src="images/s4.png" width="600"> |
